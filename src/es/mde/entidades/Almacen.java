@@ -1,6 +1,5 @@
 package es.mde.entidades;
 
-import java.awt.image.RescaleOp;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;

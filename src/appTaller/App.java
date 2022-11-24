@@ -21,6 +21,7 @@ public class App {
 		Repuesto repuesto2 = new Repuesto("aceite", 12.6f);
 		Repuesto repuesto3 = new Repuesto("pastillas de freno", 22.6f);
 		Repuesto repuesto4 = new Repuesto("anticongelante", 9.6f);
+//		LavadoraReparable lavaMachine = new LavadoraReparable();
 
 		List<Repuesto> listaRepuestos = new ArrayList<>();
 		listaRepuestos.add(repuesto1);
@@ -61,6 +62,9 @@ public class App {
 
 		coche.addAveria(new Averia("freno", 5.2f, listaRepuestosDos));
 		System.out.println(taller.isGarantia(coche));
+//		LavadoraReparable lava2= new LavadoraReparable();
+//		lava2.getAverias();
+//		taller.diagnosticar(lava2,averia);
 
 	}
 }

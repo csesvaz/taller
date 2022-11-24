@@ -1,6 +1,8 @@
 package es.mde.entidades;
 
-public class Vehiculo {
+import com.kzurro.electrodomesticos.Financiable;
+
+public class Vehiculo implements Financiable{
 
 	private String modelo;
 	private String color;
@@ -33,6 +35,17 @@ public class Vehiculo {
 	@Override
 	public String toString() {
 		return getModelo() +  " " + getColor() + " ";
+	}
+
+	public double getCuantiaCuota() {
+
+		return 0;
+	}
+
+	@Override
+	public float getPrecioFactura() {
+	
+		return 0;
 	}
 	
 	

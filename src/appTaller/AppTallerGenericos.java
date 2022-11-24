@@ -3,7 +3,6 @@ package appTaller;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
 import es.mde.entidades.Coche;
 import es.mde.entidades.Vehiculo;
 
@@ -18,6 +17,7 @@ public class AppTallerGenericos {
 		Coche coche1 = new Coche("Seat", "Negro", 4, "1234-DFG");
 		Coche coche2 = new Coche("Honda", "Blanco", 5, "5678-LKP");
 		Coche coche3 = new Coche("Toyota", "Gris", 4, "2597-FFF");
+
 		
 		List<Vehiculo> vehiculos = new ArrayList<>();
 		vehiculos.add(vehiculo1);

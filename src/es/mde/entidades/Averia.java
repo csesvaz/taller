@@ -102,8 +102,13 @@ public class Averia {
 
 	@Override
 	public String toString() {
-		return "Averia: " + getNombre() + " (" + getPrecio() + "€, " + getNumeroHorasManoObra()
+		return "Averia: " + getNombre() + " (" + getPrecio() + "ï¿½, " + getNumeroHorasManoObra()
 				+ "h) repuestos necesarios: " + getRepuestosNecesarios();
+	}
+
+	public float getPrecioFactura() {
+		
+		return 0;
 	}
 
 }

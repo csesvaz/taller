@@ -3,7 +3,6 @@ package es.mde.entidades;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -62,7 +61,7 @@ public class Taller {
 			for (Averia a : reparable.getAverias()) {
 				averiaString += a.getNombre() + ", ";
 			}
-			System.out.println("El " + reparable.getClass().getSimpleName() + " ya está diagnosticado, su averia es: "
+			System.out.println("El " + reparable.getClass().getSimpleName() + " ya estï¿½ diagnosticado, su averia es: "
 					+ averiaString);
 		}
 
@@ -116,6 +115,7 @@ public class Taller {
 		return averiasGarantizadas;
 	}
 	
+	@SuppressWarnings("unlikely-arg-type")
 	public boolean isGarantia(Reparable reparable) {
 		return getAveriasGarantizadas(reparable).contains(reparable.getAverias());
 	}
